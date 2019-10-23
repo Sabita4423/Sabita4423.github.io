@@ -1,15 +1,58 @@
+<!DOCTYPE html>
 <html>
-<head><title>welcome</title>
+<head>
+	<meta charset="utf-8">
+	<title>Slider show</title>
+<link rel="stylesheet"  href="stylebirth.css">
 </head>
-<body bgcolor="sky blue">
-<center>
-<font face=Georgia size="5" color="red"><b>DEAR FRESHERS</b></font><br><br>
-<font face=arial size="4" color="royal blue">You're Heartly Invited To Our</font></center><br>
-<br><center><font face=arial size="7" color="green">ECSTASY 2k19</font><br>
-<br><br><font face=arial size="5">Date:02/10</font>
-<br><font face=arial size="5">Time:10a.m</font>
-<br><marquee hspace=20 vspace=20 height=70 width=350><font face=arial size="20">Venue:<b><font face=arial size="30" color="orange">HOTEL THE CROWN</b></marquee></font>
-<br><br><br><font face=arial size="10" color="red">FOOD</font>&nbsp;&nbsp;&nbsp;&nbsp;<font face=arial size="10" color="violet">DRINK</font>&nbsp;&nbsp;&nbsp;&nbsp;<font face=arial size="10" color="royal blue">FUN</font>
+<body>
+<div class="slider">
+	
+</div>
 </body>
 </html>
+body{
+	margin: 0;
+	padding: 0;
+	background: #3131313131;
 
+}
+.slider{
+	width: 1000px;
+	height: 500px;
+	background: url(1.jpg);
+	margin: 100px auto;
+	animation: slide 10s infinite;
+}
+@keyframes slide{
+	25%{
+     background: url(2.jpg);
+     }
+     50%{
+     background: url(3.jpg);
+     }
+     75%{
+     background: url(4.jpg);
+     }
+     100%{
+     background: url(5.jpg);
+     }
+     125%{
+     background: url(6.jpg);
+     }
+     150%{
+     background: url(7.jpg);
+     }
+     175%{
+     background: url(8.jpg);
+     }
+     200%{
+     background: url(9.jpg);
+     }
+     225%{
+     background: url(10.jpg);
+     }
+     250%{
+     background: url(11.jpg);
+     }
+}
